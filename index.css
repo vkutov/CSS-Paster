@@ -39,10 +39,9 @@ header figure img {
 
 section {
     position: absolute;
-    max-width: 100%;
+    width: 100%;
     top: 37rem;
     color: white;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -51,8 +50,7 @@ section {
 
 section figure{
     margin-top :6rem;
-    margin-left: 12rem;
-    margin-right: 10rem;
+
     display: grid;
     gap: 1rem;
 }
