@@ -5,61 +5,47 @@
 
 body {
     background-color: rgb(61, 224, 126);
+    font-family: "Vremena Grotesk";
+    background-image: url("/assets/char-2.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 31%;
+    background-size: 65%;
 }
 
 header {
-    font-size: 7rem;
+    font-size: 10rem;
     font-weight: bold;
-    display: grid;
-    justify-content: flex-center;
-    align-items: center;
-}
-
-header p {
-    height: 20rem;
+    height:48vw;
     display: grid;
     justify-content: center;
-    align-content: flex-end;
+    align-items:safe;
 }
 
 header figure {
     width: 100%;
-    height: 48rem;
     display: grid;
-    justify-content: space-around;
-
+    justify-content: center;
 }
 
 header figure img {
-    height: 45rem;
+    height: 50%;
     display: grid;
-    align-self: flex-end;
-
+    align-self: flex-start;
 }
-
 section {
-    position: absolute;
     width: 100%;
-    top: 37rem;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     background-color: black;
+    padding:9rem;
 }
-
-section figure{
-    margin-top :6rem;
-
-    display: grid;
-    gap: 1rem;
-}
-
 section figure img{
-
-    height: 25rem;
-    width: 25rem;
+    width: 100%;
 }
+
 section figure img#one{
     grid-column: 1;
     grid-row: 1;
