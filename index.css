@@ -9,7 +9,7 @@ body {
     background-image: url("/assets/ninjahead.svg");
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 29vh;
+    background-position-y: 33vh;
     background-size: 20%;
 }
 
@@ -26,7 +26,9 @@ header {
 }
 
 header p {
+    display: grid;
     margin-bottom: 25%;
+    align-items: center ;
 }
 
 header figure {
@@ -57,16 +59,37 @@ section {
 
 section figure {
     height: 60vh;
+
 }
 
 section figure img {
     width: 100%;
 }
-
+section figure article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vh;
+}
 h5 {
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 1.5rem;
+}
+a{
+    background-color: crimson;
+    text-decoration: none;
+    padding-left: 0.5vw;
+    margin-bottom: 2vh;
+    border-radius: 3%;
+    height:3vh;
+    width: 7vw;
+    color:white;
+    align-content: center;
+}
+section figure article div {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .whiteRow {
