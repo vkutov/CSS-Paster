@@ -40,10 +40,6 @@ header figure img {
 .card {
     padding-top: 9rem;
     padding-bottom: 2rem;
-    /* padding-right: 18rem;
-    padding-left: 18rem;
-    padding-bottom: 9rem;
-    height: 70vh; */
     margin: 0;
 }
 
@@ -62,32 +58,6 @@ header figure img {
 
 }
 
-/* section {
-    border-color: black;
-    width: 100%;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem;
-    background-color: black;
-    padding-top: 9rem;
-    padding-right: 18rem;
-    padding-left: 18rem;
-    padding-bottom: 9rem;
-} */
-
-/* section article {
-    height: 70vh;
-    margin: 0;
-} */
-/* section figure {
-    height: 70vh;
-    margin: 0; */
-/* margin-inline-start: 0;    
-    margin-inline-end: 0;    
-    margin-block-start: 0;    
-    margin-block-end: 0;  */
-/* } */
 .card-image {
     max-width: 100rem;
 }
@@ -104,18 +74,6 @@ header figure img {
     padding-bottom: 1.5rem;
 }
 
-/* section figure article {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 2vh;
-} */
-
-/* h5 {
-    font-size: 3rem;
-    font-weight: bolder;
-    padding-top: 1.5rem;
-} */
 
 .card-shopping {
     background-color: rgb(250, 64, 101);
@@ -123,7 +81,6 @@ header figure img {
     padding-top: 0.25vw;
     padding-bottom: 0.25vw;
     padding-inline: 1.15vw;
-    /* margin-bottom: 1vh; */
     border-radius: 5px;
     height: 3vh;
     width: 7vw;
