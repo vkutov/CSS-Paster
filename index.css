@@ -7,12 +7,14 @@ body {
     background-color: rgb(61, 224, 126);
     font-family: "Arial";
 }
-.heading{
-    height:30rem;
+
+.heading {
+    height: 35rem;
     text-align: center;
-    padding-top:10rem;
-    font-size: 8rem;
+    padding-top: 8rem;
+    font-size: 10rem;
 }
+
 header {
     background-color: rgb(61, 224, 126);
 }
@@ -25,7 +27,43 @@ header figure img {
     margin-bottom: -3px;
 }
 
-section {
+.cards-container {
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    background-color: black;
+    padding-inline: 18rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+    /* padding-right: 18rem;
+    padding-left: 18rem;
+    padding-bottom: 9rem;
+    height: 70vh; */
+    margin: 0;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.desc {
+    font-size: larger;
+    line-height: 150%;
+    padding-bottom: 5rem;
+
+}
+
+/* section {
     border-color: black;
     width: 100%;
     color: white;
@@ -37,49 +75,62 @@ section {
     padding-right: 18rem;
     padding-left: 18rem;
     padding-bottom: 9rem;
-}
+} */
 
-section figure {
+/* section article {
     height: 70vh;
     margin: 0;
-    /* margin-inline-start: 0;    
+} */
+/* section figure {
+    height: 70vh;
+    margin: 0; */
+/* margin-inline-start: 0;    
     margin-inline-end: 0;    
     margin-block-start: 0;    
     margin-block-end: 0;  */
+/* } */
+.card-image {
+    max-width: 100rem;
 }
 
-section figure img {
+.card-image img {
     width: 100%;
+
 }
 
-section figure article {
+.card-content {
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+/* section figure article {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 2vh;
-}
+} */
 
-h5 {
+/* h5 {
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 1.5rem;
+} */
+
+.card-shopping {
+    background-color: rgb(250, 64, 101);
+    text-decoration: none;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    padding-inline: 1.15vw;
+    /* margin-bottom: 1vh; */
+    border-radius: 5px;
+    height: 3vh;
+    width: 7vw;
+    color: white;
 }
 
-a{
-    background-color: crimson;
-    text-decoration: none;
-    padding-left: 0.5vw;
-    margin-bottom: 2vh;
-    border-radius: 3%;
-    height:3vh;
-    width: 7vw;
-    color:white;
-    align-content: center;
-}
-section figure article div {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
 
 .whiteRow {
     background-color: white;
@@ -121,7 +172,7 @@ footer div img {
     height: 150%;
 }
 
-#three{
+#three {
     display: flex;
     justify-items: flex-start;
     gap: 2rem;
