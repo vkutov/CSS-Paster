@@ -7,7 +7,6 @@ body {
     background-color: rgb(61, 224, 126);
     font-family: "Arial";
 }
-
 .heading {
     height: 35rem;
     text-align: center;
@@ -100,7 +99,7 @@ header figure img {
 
 .card-content {
     width: 100%;
-    padding-top: 0px;
+    margin-top: -2px;
     padding-left: 1rem;
     padding-bottom: 1.5rem;
 }
